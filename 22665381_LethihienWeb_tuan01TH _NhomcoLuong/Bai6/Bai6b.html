@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUAN 1 BAI 6B</title>
+    <style>
+        .all {
+            margin: auto;
+            width: 500px;
+            border: 1px solid rgb(110, 223, 235);
+            height: 500px;
+        }
+        
+        input {
+            margin-top: 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="all">
+        <h1 valign="top">Contact Us</h1>
+        <div class="Urmess">
+            <fieldset>
+                <legend>Your message</legend>
+                <form>
+                    <label for="to">To:</label>
+                    <input type="text" id="to" name="to" value="Example" style="margin-left: 55px;"><br>
+                    <label for="usEm">Your email:</label>
+                    <input type="text" id="usEm" name="usEm" style="margin-left: 1px;"><br>
+                    <div style="display: flex; align-items: center;">
+                        <label for="mess">Message</label>
+                        <textarea name="mess" id="mess" style="width: 325px; height: 150px;margin-left: 25px; margin-top:3px">
+                    </textarea>
+                    </div>
+                    <p>Attach File <input type="submit" value="Choose File"> No file chosen</p>
+                </form>
+            </fieldset>
+        </div>
+        <div class="how">
+            <fieldset>
+                <legend>How you found us</legend>
+                <label for="choose">How did you hear of us</label>
+                <select name="choose" id="choose">
+                <option value="ScanMaster">Google</option>
+            </select> <br>
+                <Label for="tick">Newsletter</Label>
+                <input type="checkbox" id="tick" name="tick" style="margin-left: 80px;">
+                <label for="tick">Ensure this box is checked if you would like to receive email updates</label>
+            </fieldset>
+        </div>
+        <div class="end">
+            <input type="submit" value="Send message">
+        </div>
+    </div>
+
+</body>
+
+</html>

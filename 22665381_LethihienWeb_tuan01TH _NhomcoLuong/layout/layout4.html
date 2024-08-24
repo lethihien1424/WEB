@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout 4 </title>
+
+    <style>
+        .wrapper {
+            width: 800px;
+            height: 500px;
+            margin: auto;
+            background-color: rgb(142 170 219);
+            border: 2px solid #baadad;
+        }
+        
+        .header {
+            height: 60px;
+            border-bottom: 1px solid #baadad;
+            
+        }
+        
+        .content {
+            height: 380px;
+        }
+        
+        .nav {
+            width: 20%;
+            height: 100%;
+            float: left;
+            border-right: 1px solid#baadad;
+        }
+        
+        .section {
+            width: calc(80% - 1px);
+            height: 100%;
+            float: left;
+        }
+        
+        .article {
+            background-color: #fff;
+            width: 95%;
+            height: 90%;
+            margin: auto;
+            border: 2px solid #baadad;
+            background-color: rgb(91, 38, 4);
+        }
+        
+        .footer {
+            height: 60px;
+            border-top: 2px solid #baadad;
+          
+            
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+           header
+        </div>
+
+        <div class="content">
+            <div class="nav">nav</div>
+
+            <div class="section">section
+
+                <div class="article">
+                    article
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+           footer
+        </div>
+    </div>
+</body>
+
+</html>

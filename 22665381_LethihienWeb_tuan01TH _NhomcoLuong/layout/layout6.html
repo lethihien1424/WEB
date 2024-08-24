@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout 6</title>
+
+    <style>
+        .wrapper {
+            width: 800px;
+            height: 500px;
+            margin: auto;
+            background-color: rgb(163, 123, 13);
+            border: 1px solid #cfc7c7;
+        }
+        
+        .header {
+            height: 60px;
+            border-bottom: 1px solid#cfc7c7;
+            text-align: center;
+        }
+        
+        .nav {
+            height: 50px;
+            border-bottom: 1px solid #cfc7c7;
+        }
+        
+        .content {
+            height: calc(500px - 180px);
+        }
+        
+        .section {
+            width: 70%;
+            height: 100%;
+            float: left;
+            background-color: rgb(245, 183, 102);
+        }
+        
+        .aside {
+            width: calc(100% - 70% - 1px);
+            height: 100%;
+            float: left;
+            border-left: 1px solid #cfc7c7;
+        }
+        
+        .article-1 {
+            background-color: #fff;
+            width: 95%;
+            height: 45%;
+            margin: auto;
+            border: 1px solid #cfc7c7;
+            background-color: rgb(255 241 204);
+        }
+        
+        .article-2 {
+            background-color: #fff;
+            width: 95%;
+            height: 45%;
+            margin: auto;
+            border: 1px solid #cfc7c7;
+            border-top: none;
+            background-color: rgb(250 227 212);
+        }
+        
+        .footer {
+            height: 60px;
+            border-top: 1px solid #cfc7c7;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <p style="float: left">header</p>
+        </div>
+
+        <div class="nav">nav</div>
+
+        <div class="content">
+
+            <div class="section">section
+                <div class="article-1">
+                    article
+                </div>
+
+                <div class="article-2">
+                    article
+                </div>
+            </div>
+
+            <div class="aside">
+                aside
+            </div>
+        </div>
+
+        <div class="footer">
+            <p style="float: left">footer</p>
+        </div>
+    </div>
+</body>
+
+</html>
