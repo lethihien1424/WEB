@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout2</title>
+    <style>
+         .wrapper {
+            width: 900px;
+            height: 500px;
+            margin: auto;
+            background-color: rgb(38, 70, 20);
+            border: 2px solid #b3abab;
+        }
+        
+        .header {
+            height: 60px;
+            border-bottom: 2px solid #aeaaaa;
+            text-align: center;
+        }
+        
+        .content {
+            height: calc(500px - 120px);
+        }
+        
+        .nav {
+            width: 20%;
+            height: 100%;
+            float: left;
+            border-right: 2px solid  #aeaaaa;
+        }
+        
+        .center {
+            width: calc(60% - 2px);
+            float: left;
+        }
+        
+        .section {
+            width: 20%;
+            height: 100%;
+            float: right;
+            border-left: 2px solid  #aeaaaa;
+        }
+        
+        .footer {
+            
+            height: 60px;
+            border-top: 1px solid #aeaaaa;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            header
+        </div>
+
+        <div class="content">
+            <div class="nav">nav</div>
+
+            <div class="center"></div>
+
+            <div class="section">section</div>
+        </div>
+
+        <div class="footer">
+            footer
+        </div>
+    </div>
+</body>
+</body>
+</html>
